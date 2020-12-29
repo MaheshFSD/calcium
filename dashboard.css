@@ -5,5 +5,154 @@ body{
 .homepage{
     width: 80%;   
     margin: auto;
-    background-color: tomato; 
+   
+}
+.username-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 98%;
+    margin-top: 8px;
+}
+
+#username-select{
+    color: #888888;
+    background-color: #f0ecec;
+    border: none;
+    outline: none;
+}
+#username-select:hover{
+    background-color:#cccccc;
+}
+.fa-bell,.fa-users{
+    color:#cccccc;
+    margin-left: 15px;
+}
+.fa-user{
+    color: #28B6E3;
+    margin-left: 30px;
+    /* width: fit-content;
+    height: fit-content; */
+    background-color: #BABAC8;
+}
+.fa-bell:hover,.fa-users:hover{
+    color: #28B6E3;
+}
+.navbar-container{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+}
+.logo-jefit{
+    width: 100px;
+    height: 30px; 
+    margin-right: 365px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    color:#cccccc;
+    margin-top: 5px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #A87F7F;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+    color: #28B6E3;
+    line-height: 20px;
+    border-bottom: 2px solid #28B6E3; 
+    
+}
+
+.navbar .remove-underline:hover{
+    border-bottom: none;
+}
+/* .navbar a.active {
+  width: 100px;
+  height: 30px;
+  border-bottom: none;
+} */
+.get-jefit-btn{
+    background-color: #28B6E3;
+    color: white;
+    font-size: 14px;
+    padding: 7px 10px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-top: 5px;
+    outline: none;
+}
+.get-jefit-btn:hover{
+    background-color: #BABAC8;
+    color: black;
+}
+.navbar .icon {
+  display: none;
+  
+}
+.fa-bars{
+    color: #cccccc;
+    font-size: 20px;
+}
+.dashboard-container{
+    width: 100%;
+
+}
+.dashboard-container-middle{
+    width: 60%;
+}
+.user-details{
+    color: #888888;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.user-details-link{
+    color:#28B6E3;
+    text-decoration: none;
+}
+.user-details-location{
+    text-decoration: none;
+}
+.user-details-location:hover{
+    color:#28B6E3;
+    text-decoration: underline;
+}
+.fa-globe{
+    margin-left:10px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 1150px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar button{display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+    border: 0.5px solid #cccccc;
+    border-radius: 3px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
