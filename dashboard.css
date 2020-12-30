@@ -1,6 +1,8 @@
 body {
   background-color: #fcfcfc;
   margin: 0;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+
 }
 .homepage {
   width: 85%;
@@ -60,7 +62,7 @@ body {
   float: left;
   height: 600px;
 }
-.middle__left__img{
+.middle__left__img {
   width: 100%;
 }
 .left__block {
@@ -400,4 +402,82 @@ cgreen {
     display: block;
     text-align: left;
   }
+}
+.Benchmark_container{
+  border-bottom:1px solid #d4d4d4;
+  padding-bottom:5px;
+  float:left; 
+  width:100%; 
+  margin-top:10px;
+}
+.Exercise__Progress{
+  color:#4d4f53;
+  font-size:16px; 
+  padding-top:20px;
+}
+.Update{
+  font-size:10px;
+  color:#AAA;
+  font-weight:bold;
+  width:100%;
+  float: left;
+}
+.Manage{
+  color:#4184A1;
+  float:right;
+  font-weight:bold;
+  font-size:11px;
+}
+.Exercise__Container{
+  display:inline-block;
+  width:100%;
+}
+.Barbell__Stats{
+  color:rgb(75, 169, 231);
+  font-weight:bold;
+  margin-top:10px; 
+  float:left; 
+  width:100%; 
+  padding-bottom:5px;
+  
+}
+.Barbell__Stats__img{
+  float:left;
+  height:80px;
+  width:20%;
+}
+.Goal__Box{
+  width:65%;
+  float: left;
+}
+.lbs__Goal{
+  font-size:24px;
+  margin-top:10px;
+  width:100%;
+  float:left;
+  text-align: center;
+
+}
+.Goal__Prog__Box{
+  float:left;
+  border-radius:4px;
+  width:95%;
+  border-bottom:1px dashed #d4d4d4;
+  padding-bottom: 20px;
+}
+.Goal__Prog__Box1{
+  width:100%;
+  text-align:center;
+  color:#888;
+  font-size:11px;
+}
+.Day__Container{
+  float:left;
+  width: 15%;
+
+}
+.Barbell__Squat{
+  color:#666;
+  font-weight:bold;
+
 }
