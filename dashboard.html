@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>www.jefit.com</title>
 </head>
 <body>
     <div class="homepage">
         <div class="username-container">
             <div class="username-div">
-                <i class="fa fa-bell" style="font-size: 24px;"></i>
-                <i class="fa fa-users" style="font-size: 24px;"></i>
-                <i class="fa fa-user" style="font-size: 24px;"></i>
+                <i class="fa fa-bell" style="font-size: 15px;"></i>
+                <i class="fa fa-users" style="font-size: 15px;"></i>
+                <i class="fa fa-user" style="font-size: 15px;"></i>
                 <select name="username" id="username-select">
                 <option value="" disabled selected hidden>gmahesh3</option>
                 <option value="Settings">Settings</option>
@@ -24,30 +25,80 @@
         <div class="navbar-container">
             <div class="navbar" id="navbarjs">
                 <a href="#home" class="remove-underline"><img class="logo-jefit" src="./images/logo_jefit.png" /></a>
-                <a href="#MY JEFIT" >Home</a>
-                <a href="#WORKOUTS">News</a>
-                <a href="#EXERCISES">Contact</a>
-                <a href="#BLOG">About</a>
-                <a href="#FORUM">Contact</a>
-                <a href="#DOWNLOAD">About</a>
                 <button class="get-jefit-btn">Get JEFIT Elite</button>
+                <a class="float-right" href="#DOWNLOAD">DOWNLOAD</a>
+                <a class="float-right" href="#FORUM">FORUM</a>
+                <a class="float-right" href="#BLOG">BLOG</a>
+                <a class="float-right" href="#EXERCISES">EXERCISES</a>
+                <a class="float-right" href="#WORKOUTS">WORKOUTS</a>
+                <a class="float-right" href="#MY JEFIT" >MY JEFIT</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
         </div>  
+        <div style="clear: both;"></div>
         <div class="dashboard-container">
-            <!-- <div>Left</div>
+            <div class="dashboard-container-left">Left</div>
             <div class="dashboard-container-middle">
                 <div class="user-details">
                     <a class="user-details-link" href="#">https://jefit.com/user/gmahesh3</a>
-                    <div class="user-details-data">
-                        <h4>25, Male<i class="fa fa-globe" style="font-size:15px"></i><a class="user-details-location">Location</a></h4>
-                        
-                    </div>
+                    <div class="user-info">
+                        <p class="user-details-data">25, Male</p>
+                        <i class="fa fa-globe" style="font-size:17px"></i>
+                        <span><a href="#" class="user-details-location">Location</a></span> 
+                    </div>                                 
+                </div>
+                <div class="middle-dashboard">
+                    <ul class="tabs">
+                        <li data-tab-target="#home" class="active tab">Home</li>
+                        <li data-tab-target="#BodyStats" class="tab">Body Stats</li>
+                        <li data-tab-target="#TrainingStats" class="tab">Training Stats</li>        
+                        <li data-tab-target="#ProgressPhotos" class="tab">Progress Photos</li>
+                    </ul>
+                      
+                      <div class="tab-content">
+                        <div id="home" data-tab-content class="active">
+                          <p>Status:</p><p></p>
+                          <div class="hometab">
+                              <input type="text" id="status" placeholder="Update your status...(or share a youtube video?)">
+                              <button class="status-btn">Post</button>
+                          </div>
+                          <h3>Tools and Resources</h3>
+                          <button class="logWorkBtn" ><i class='fas fa-dumbbell' style='font-size:24px;color:green'></i> Log Workout</button>
+                          <button class="bodystats" ><i class='fas fa-dumbbell' style='font-size:24px;color:blue'></i> Body Stats</button>
+                          <button class="progresspic" ><i class='fas fa-dumbbell' style='font-size:24px;color:red'></i> Progress Pic.</button>
+                          <div class="para-info">
+                              <p>Please activate your JEFIT account by clicking the link in your activation email. Only email activated accounts are allowed to post or upload pictures.</p>
+                              <p>- If you need to change your email address, click <a class="here" href="#">here.</a></p>
+                              <p>- If you need to resend the activation email, click <a class="here" href="#">here.</a></p>
+                          </div>
+                          <h4 class="no-margin">Activity Feed</h4>
+                          <div class="bottom-line"></div>
+                          <div class="hometab">
+                              <h5 class="hometab_margin-left">Suggested Friends</h5>
+                          </div>
+                          <p class="textlabel">
+                            No activity to show at this time. Record logs and data or <a href="#" class="bottom-label">add friends</a> to see more status updates</p>
+
+                        </div>
+                        <div id="BodyStats" data-tab-content>
+                          <h1>BodyStats</h1>
+                          <p>This is BodyStats</p>
+                        </div>
+                        <div id="TrainingStats" data-tab-content>
+                          <h1>TrainingStats</h1>
+                          <p>This is TrainingStats </p>
+                        </div>
+                        <div id="ProgressPhotos" data-tab-content>
+                            <h1>ProgressPhotos</h1>
+                            <p>This is ProgressPhotos </p>
+                        </div>
+                      </div>
+                </div>
                 </div>
             </div>
-            <div>right</div> -->
+            <div>right</div>
         </div>
         <div class="footer-container"></div>
     </div>
