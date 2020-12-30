@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cal1.css">
+    <!-- <link rel="stylesheet" href="cal1.css"> -->
     <link rel="stylesheet" href="dashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
@@ -85,21 +85,21 @@
 
                     <div class="tab-content">
                         <div id="home" data-tab-content class="active">
-                            <p>Status:</p>
-                            <p></p>
+                            <span>Status:</span>
+                            <span id="status-value"></span>
                             <div class="hometab">
                                 <input type="text" id="status"
                                     placeholder="Update your status...(or share a youtube video?)">
-                                <button class="status-btn">Post</button>
+                                <button class="status-btn" id="post-status-btn">Post</button>
                             </div>
                             <h3>Tools and Resources</h3>
                             <button class="logWorkBtn"><img src="https://www.jefit.com/images/traininglogicon.png"
-                                    width="30" style="font-size:25px;color:red"> Log Workout</button>
+                                    width="30" style="font-size:24px"> Log Workout</button>
                             <button class="bodystats"><img src="https://www.jefit.com/images/bodystatusicon.png"
-                                    width="30" style='font-size:24px;color:red'>
+                                    width="30" style='font-size:24px'>
                                 Body Stats</button>
                             <button class="progresspic"><img src="https://www.jefit.com/images/takepictureicon.png"
-                                    width="30" style='font-size:24px;color:red'>
+                                    width="30" style='font-size:24px'>
                                 Progress Pic</button>
                             <div class="para-info">
                                 <p>Please activate your JEFIT account by clicking the link in your activation email.
@@ -300,15 +300,7 @@
                                     <span style="color:#999">Days Left </span>
                                     <div style="font-size:30px; font-weight:bold; margin-top:10px">0</div>
                                 </div>
-
-                            </div>
-                            <div id="ProgressPhotos" data-tab-content>
-                                <h1>ProgressPhotos</h1>
-                                <p>This is ProgressPhotos </p>
-                                <!-- Progress Pic -->
-                                <div id="Progress__Pic"></div>
-                                <!--  -->
-                            </div>
+                            </div>                           
                         </div>
                     </div>
                 </div>

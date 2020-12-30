@@ -22,3 +22,12 @@ tabs.forEach(tab => {
     target.classList.add('active')
   })
 })
+
+const postBtn=document.getElementById('post-status-btn')
+postBtn.addEventListener('click',assignStatus)
+function assignStatus(){
+const value=document.getElementById('status').value;
+document.getElementById('status-value').innerHTML=value;
+
+console.log(value)
+}
