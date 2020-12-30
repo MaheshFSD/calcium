@@ -1,0 +1,419 @@
+body{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+.First__div{
+    width: 100%;
+    height: 100px;
+    box-shadow:  5px 5px 15px grey;
+}
+.Nav__bar{
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.Nav__bar img{
+    width: 10%;
+    height: 35%;
+    margin-top: 2%;
+}
+.Nav__bar img:hover{
+    cursor: pointer;
+}
+.Nav__bar p{
+    margin: 3% 2%;
+    font-weight: 600;
+}
+.Nav__bar p:hover{
+    cursor: pointer;
+    color: rgb(85, 187, 228);
+}
+#home{
+    margin-left: 10%;
+    color: rgb(85, 187, 228);
+}
+.Nav__bar button{
+    width: 150px;
+    height: 50px;
+    margin-top: 1.5%;
+    border: none;
+    font-weight: 600;
+    color: white;
+    margin-left: 2%;
+    border-radius: 30px;
+    background:linear-gradient(145deg,rgb(57, 115, 223),skyblue);
+}
+.Nav__bar button:hover{
+    background: rgb(85, 187, 228);
+    cursor: pointer;
+}
+.Second__div{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(247, 247, 247);
+}
+.Manage{
+    width: 65%;
+    margin: auto;
+    height: 100%;
+}
+.Part__1,.Part__2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.Part__1 h1{
+    font-size: 50px;
+    margin-top: 25%;
+}
+.Part__1 p{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: rgb(85, 187, 228);
+}
+.Part__1 button{
+    width: 230px;
+    height: 60px;
+    border-radius: 10px;
+}
+.btn__1{
+    background-image: url("https://cdn.jefit.com/wp/wp-content/uploads/2020/12/googleplayj.png");
+    background-position: center;
+    background-size: cover;
+    border: none;
+}
+.btn__2{
+    background-image: url("https://cdn.jefit.com/wp/wp-content/uploads/2020/12/appstorej1.png");
+    background-position: center;
+    background-size: cover;
+    border: none;
+    margin-left: 2%;
+}
+.btn__1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.btn__2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Part__2 img{
+    width: 90%;
+    margin: 20% 0;
+}
+.Third__div{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(241, 240, 240);
+}
+.Section__1,.Section__2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.carousal{
+    display: flex;
+    margin-top: 7%;
+}
+.carousal img{
+    border-radius: 15px;
+    margin: auto;
+}
+.Section__1 h1{
+    font-size: 37px;
+    margin-top: 20%;
+}
+.Section__1 a{
+    color: rgb(85, 187, 228);
+}
+.Section__1 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+    margin-top: 10%;
+}
+.Section__2 img{
+    margin: 20% 5%;
+}
+.Fourth__div{
+    width: 100%;
+    height: 600px;
+}
+.Fourth__div h1{
+    margin-top: 3%;
+    text-align: center;
+}
+.split{
+    width: 65%;
+    margin: auto;
+    height: 70%;
+    display: flex;
+}
+.boxes{
+    width: 30%;
+    height: 80%;
+    margin: auto;
+}
+.boxes:hover{
+    box-shadow: 5px 5px 15px rgb(212, 210, 210),-5px -5px 15px rgb(212, 210, 210);
+}
+.boxes img{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 25%;
+}
+.boxes img:hover{
+    transform: scale(1.1);
+}
+.boxes a{
+    font-size: 25px;
+    margin-left: 2%;
+    margin-top: 10%;
+    font-weight: 600;
+    color: rgb(85, 187, 228);
+}
+.boxes p{
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.Fifth__div{
+    width: 100%;
+    height: 730px;
+    background-color: rgb(240, 240, 247);
+}
+.Fifth__div h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.photos{
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.photos img{
+    margin: auto;
+    width: 16%;
+}
+.Sixth__div{
+    width: 100%;
+    height: 650px;
+}
+.Sixth__div h1{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+.plans{
+    width: 65%;
+    height: 85%;
+    display: flex;
+    margin: auto;
+}
+.planned{
+    width: 32%;
+    height: 100%;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgb(243, 243, 243),-5px -5px 15px rgb(243, 243, 243);
+}
+.planned:hover{
+    box-shadow: 5px 5px 15px rgb(216, 214, 214),-5px -5px 15px rgb(216, 214, 214);
+}
+.middle{
+    text-align: center;
+    margin-top: 15%;
+}
+.middle h1{
+    color: rgb(85, 187, 228);
+    margin-bottom: 0;
+    font-size: 40px;
+    margin-top: 15%;
+}
+.top{
+    font-size: 23px;
+}
+.middle h1+p{
+    margin: 0;
+}
+.list{
+    width: 75%;
+    height: 30%;
+    margin: 15% auto 0;
+}
+.list img{
+    width: 5%;
+    height: 5%;
+    float: left;
+}
+.sidebyside{
+    margin-top: 2%;
+}
+.list p{
+    margin: auto 8%;
+    font-size: 15px;
+}
+.middle__2{
+    text-align: center;
+}
+.middle__2 button{
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid rgb(85, 187, 228);
+    color: rgb(85, 187, 228);
+    border-radius: 30px;
+}
+.middle__2 button:hover{
+    background:linear-gradient(145deg,rgb(57, 115, 223),skyblue);
+    color: white;
+    cursor: pointer;
+}
+.Seventh__div{
+    width: 100%;
+    height: 750px;
+}
+.slide{
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+}
+.Seventh__div h1{
+    text-align: center;
+    margin-top: 5%;
+}
+.slider{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    height: 70%;
+}
+.slider img{
+    width: 50%;
+}
+.distance{
+    margin: 15% auto;
+    color: rgb(162, 165, 173);
+    line-height: 30px;
+}
+.distance+p{
+    margin-bottom: 0%;
+    font-weight: 600;
+}
+.attach{
+    margin-top: 0;
+    color: rgb(162, 165, 173);
+}
+.Eight__div{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(240, 240, 247);
+}
+.Eight__div h1{
+    text-align: center;
+    padding-top: 3%;
+}
+.news{
+    width: 65%;
+    height: 55%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 32%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+}
+.card img{
+    width: 100%;
+}
+.card img+p{
+    font-size: 25px;
+    color: rgb(162, 165, 173);
+}
+.card img+p:hover{
+    cursor: pointer;
+}
+.card button{
+    border: none;
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 3%;
+    background-color: rgb(85, 187, 228);
+    border-radius: 20px;
+}
+.card button:hover{
+    background-color: rgb(143, 218, 248);
+    cursor: pointer;
+}
+.short{
+    color: rgb(162, 165, 173);
+}
+.short+p{
+    font-size: 14px;
+}
+.app__links{
+    width: 65%;
+    height: 20%;
+    margin: auto;
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 20px;
+}
+.getit{
+    width: 75%;
+    float: left;
+    height: 100%;
+}
+.link{
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+.getit h2{
+    padding-top: 2%;
+    margin-left: 8%;
+    font-size: 35px;
+}
+.getit p{
+    margin-left: 8%;
+    font-size: 23px;
+}
+.btn__3{
+    background-image: url("https://cdn.jefit.com/wp/wp-content/uploads/2020/12/googleplayj.png");
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    margin-top: 15%;
+    height: 55px;
+}
+.btn__3:hover{
+    transform: scale(1.1);
+}
+.btn__4{
+    background-image: url("https://cdn.jefit.com/wp/wp-content/uploads/2020/12/appstorej1.png");
+    background-size: cover;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    margin-top: 5%;
+    height: 55px;
+}
+.btn__4:hover{
+    transform: scale(1.1);
+}
