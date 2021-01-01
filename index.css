@@ -27,6 +27,10 @@ body{
     margin: 3% 2%;
     font-weight: 600;
 }
+.account-class{
+    text-decoration: none;
+    color: black;
+}
 .Nav__bar p:hover{
     cursor: pointer;
     color: rgb(85, 187, 228);
