@@ -5,8 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="cal1.css"> -->
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>www.jefit.com</title>
 </head>
@@ -117,12 +121,58 @@
                             <p class="textlabel">
                                 No activity to show at this time. Record logs and data or <a href="#"
                                     class="bottom-label">add friends</a> to see more status updates</p>
+                        </div>
+                        <div id="BodyStats" data-tab-content >                            
+                            <div>
+                                <div class="body-stats-updates">
+                                    <h4 class="body-stats-updates-title">Latest Body Stats</h4>
+                                    <label class="body-stats-last-updated">Last Updated:</label>
+                                    <span id="last-updated-time"></span>
+                                </div>
+                                <a class="update-body-stats-page " href="#">Update Body Stats</a>
+                            </div>
+                            <img style="display: none;" onload="loadChart()">
+                            <hr class="bottom-line-body-stats-menu" ></hr>
+                            <div class="male-img-body-info">
+                                <div class="male-img-body-info-data"> 
+                                    <div style="color:#999">Height </div>
+                                    <strong style="font-size:24px;color: #0AB2E6">0</strong>
+                                    <strong style="font-size:12px;color: #0AB2E6"> in</strong>
+                                </div>
+                                <div class="body-stats-info-card"  onload="loadChart()">
 
+                                    <div style="color:#999">Current Weight</div>
+                                    <div class="current-weight">
+                                            <strong style="font-size:24px">150</strong>
+                                            <strong style="font-size:12px"> lbs</strong>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="body-stats-margin-color" >Lean Body Mass </div>
+                                    <div class="dashed-line-bottom">
+                                        <strong style="font-size:24px">150</strong>
+                                        <strong style="font-size:12px"> lbs</strong>
+                                    </div>
+
+
+                                    <div class="body-stats-margin-color">Body Fat Mass </div>
+                                    <div class="dashed-line-bottom">
+                                        <strong style="font-size:24px">0</strong>
+                                        <strong style="font-size:12px"> lbs</strong>
+                                    </div>
+
+                                    <div class="body-stats-margin-color">BMI</div>
+                                    <div class="dashed-line-bottom">
+                                        <strong style="font-size:24px">20.34</strong>
+                                    </div>
+                                </div>
+                                <canvas id="myChart"  ></canvas>
+                                <p id="chart-percentage"></p>                                
+                            </div>                            
                         </div>
-                        <div id="BodyStats" data-tab-content>
-                            <h1>BodyStats</h1>
-                            <p>This is BodyStats</p>
-                        </div>
+
+
                         <div id="TrainingStats" data-tab-content>
                             <div class="Benchmark_container">
                                 <strong class="Exercise__Progress">Benchmark Exercise Progress</strong>
@@ -378,11 +428,8 @@
                     </div>
                 </div>
             </footer>
-        </div>
-
+        </div>        
     </div>
-    <script src="dashboard.js"></script>
+    <script src="index.js"></script>
 </body>
-
-
 </html>
