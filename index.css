@@ -1,5 +1,6 @@
 body{
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    margin:0;
 }
 .First__div{
     width: 100%;
@@ -7,7 +8,7 @@ body{
     box-shadow:  5px 5px 15px grey;
 }
 .Nav__bar{
-    width: 65%;
+    width: 90%;
     height: 100%;
     margin: auto;
     /* border: 1px solid black; */
@@ -25,6 +26,10 @@ body{
 .Nav__bar p{
     margin: 3% 2%;
     font-weight: 600;
+}
+.account-class{
+    text-decoration: none;
+    color: black;
 }
 .Nav__bar p:hover{
     cursor: pointer;

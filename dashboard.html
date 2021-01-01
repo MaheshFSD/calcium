@@ -31,14 +31,14 @@
         </div>
         <div class="navbar-container">
             <div class="navbar" id="navbarjs">
-                <a href="#home" class="remove-underline"><img class="logo-jefit" src="./images/logo_jefit.png" /></a>
+                <a href="./index.html" class="remove-underline"><img class="logo-jefit" src="./images/logo_jefit.png" /></a>
                 <button class="get-jefit-btn">Get JEFIT Elite</button>
                 <a class="float-right" href="#DOWNLOAD">DOWNLOAD</a>
                 <a class="float-right" href="#FORUM">FORUM</a>
                 <a class="float-right" href="#BLOG">BLOG</a>
                 <a class="float-right" href="#EXERCISES">EXERCISES</a>
                 <a class="float-right" href="#WORKOUTS">WORKOUTS</a>
-                <a class="float-right" href="#MY JEFIT">MY JEFIT</a>
+                <a href="./dashboard.html" class="float-right" >MY JEFIT</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -97,14 +97,14 @@
                                 <button class="status-btn" id="post-status-btn">Post</button>
                             </div>
                             <h3>Tools and Resources</h3>
-                            <button class="logWorkBtn"><img src="https://www.jefit.com/images/traininglogicon.png"
-                                    width="30" style="font-size:24px"> Log Workout</button>
-                            <button class="bodystats"><img src="https://www.jefit.com/images/bodystatusicon.png"
-                                    width="30" style='font-size:24px'>
-                                Body Stats</button>
-                            <button class="progresspic"><img src="https://www.jefit.com/images/takepictureicon.png"
-                                    width="30" style='font-size:24px'>
-                                Progress Pic</button>
+                            <a href="./update_body_stats.html"><button class="logWorkBtn"><img src="https://www.jefit.com/images/traininglogicon.png"
+                                width="30" style="font-size:24px"> Log Workout</button></a>
+                           <a href="./update_body_stats.html"> <button class="bodystats"><img src="https://www.jefit.com/images/bodystatusicon.png"
+                            width="30" style='font-size:24px'>
+                        Body Stats</button></a>
+                            <a href="./progress_pictures.html"><button class="progresspic"><img src="https://www.jefit.com/images/takepictureicon.png"
+                                width="30" style='font-size:24px'>
+                            Progress Pic</button></a>
                             <div class="para-info">
                                 <p>Please activate your JEFIT account by clicking the link in your activation email.
                                     Only email activated accounts are allowed to post or upload pictures.</p>
@@ -129,7 +129,7 @@
                                     <label class="body-stats-last-updated">Last Updated:</label>
                                     <span id="last-updated-time"></span>
                                 </div>
-                                <a class="update-body-stats-page " href="#">Update Body Stats</a>
+                                <a class="update-body-stats-page " href="./update_body_stats.html">Update Body Stats</a>
                             </div>
                             <img style="display: none;" onload="loadChart()">
                             <hr class="bottom-line-body-stats-menu" ></hr>
@@ -176,7 +176,11 @@
                         <div id="TrainingStats" data-tab-content>
                             <div class="Benchmark_container">
                                 <strong class="Exercise__Progress">Benchmark Exercise Progress</strong>
+<<<<<<< HEAD
                                 <div class="Update"> Last Updated: 2020-12-30<a href="./" class="Manage">Manage Your Goals</a>
+=======
+                                <div class="Update"> Last Updated: 2020-12-30<a href="./managegoals.html" class="Manage">Manage Your Goals</a>
+>>>>>>> b2f6c574c1f16cb86a35cb8d47cedf2dea2b2329
                                     <!-- Manage Your goal -->
                                     <div id="Manage__Goal"></div>
 
@@ -357,11 +361,32 @@
                             </div>                           
                         </div>
                         <div id="ProgressPhotos" data-tab-content>
-                            <h1>ProgressPhotos</h1>
-                            <p>This is ProgressPhotos </p>
-                            <!-- Progress Pic -->
-                            <div id="Progress__Pic"></div>
-                            <!--  -->
+                            <div class="progress__pic__container">
+                                <div class="progress__pic__Bar">
+                                    <div>
+                                        <div class="progress__pic__Bar2">
+                                            <strong style="margin-left:5px; color:#4d4f53; font-size:16px"> Progress Pictures </strong>
+                                            <span class="Edit__upload">More</span>
+                                            <span class="Edit__upload">Edit</span>
+                                            <span class="Edit__upload">Upload</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress__pic__sub__Box">
+                                    <div>
+                                        <div class="progress__pic__sub__Box1">
+                                            <p>
+                                                <img src="https://www.jefit.com/assets/img/group-avatar.png"
+                                                    value="Upload Some Progress Pictures Now">
+                                            </p>
+                                            <p style=" margin-top:10px">
+                                                <input type="button" class="picturepostButton"
+                                                    value="No Picture Found, Upload now to enable progress photo comparison feature.">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -381,7 +406,7 @@
 
             <!-- Middle-Right-Container -->
             <div class="middle__right">
-                <img class="middle__right__img" src="https://i.imgur.com/4qvKVBj.png" alt="rightuser_pic" />
+                <img class="middle__right__img" src="./images/rightpic.png" alt="rightuser_pic" />
             </div>
             <!--  -->
         </div>

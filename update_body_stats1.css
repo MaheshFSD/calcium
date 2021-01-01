@@ -1,13 +1,179 @@
 body {
-  background-color: #fcfcfc;
+  background-color: #fffefe;
   margin: 0;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.dashboard-container {
+  width: 80%;
+}
+.Benchmark__Container {
+  display: block;
+  width: 78%;
+  float: right;
+  margin: 20px -5px 2px;
+}
+.Set__Benchmark {
+  border-bottom: 2px solid #c0bdbd;
+  font-size: 18px;
+  margin-top: 30px;
+  padding-bottom: 5px;
+  width: 560px;
+  color: #4d4f53;
 }
 .homepage {
-  width: 89%;
+  width: 90%;
   margin: auto;
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(252, 252, 252);
+}
+/* Bodystats_middle_container */
+.Bodystats_middlecontainer{
+  width: 60%;
+  margin-left: 25%;
+}
+.Bodystats_middlecontainer p{
+  color: #28b6e3;
+}
+.Bodystats_middlecontainer a{
+  color: #888888;
+}
+.first{
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #babac8;
+}
+.first p{
+  color: black;
+  margin-top: 4%;
+  font-weight: 600;
+  float: left;
+}
+#add{
+  float: right;
+  color: #babac8;
+  margin-top: 4%;
+  font-weight: 600;
+  background-color: white;
+  border: none;
+}
+#add_2{
+  float: right;
+  color: #babac8;
+  background-color: white;
+  margin-top: 4%;
+  font-weight: 600;
+  border: none;
+}
+#add_3{
+  float: right;
+  color: #babac8;
+  background-color: white;
+  margin-top: 4%;
+  font-weight: 600;
+  border: none;
+}
+.first+p{
+  color: #babac8;
+  text-align: center;
+}
+#left{
+  color: #babac8;
+  text-align: left;
+}
+#Add_workout_logs{
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #28b6e3;
+  border: 1px solid #28b6e3;
+  color: #fffefe;
+}
+#Add_workout_logs:hover{
+  background-color: #eeeeee;
+  color: #28b6e3;
+}
+#do_it{
+  width: 550px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.makeit{
+  display: flex;
+  margin-top: 20px;
+}
+.makeit p{
+  margin: auto;
+  font-weight: 600;
+}
+.makeit input{
+  width: 30px;
+  height: 20px;
+}
+.makeit+button{
+  border-radius: 5px;
+  margin-left: 40%;
+  margin-top: 5%;
+  border: none;
+  height: 40px;
+}
+.makeit+button:hover{
+  background-color: grey;
+  color: white;
+}
+#how{
+  background-color: rgb(206, 202, 202);
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  float: right;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+#how:hover{
+  color: rgb(85,176,174);
+  cursor: pointer;
+}
+.right{
+  clear: right;
+}
+.done{
+  height: 40px;
+  margin: 2% 45%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(206, 202, 202);
+}
+.done:hover{
+  color: rgb(85,176,174);
+}
+#add_again{
+  width: 500px;
+  height: 150px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+#last_time{
+  width: 500px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: rgb(248, 246, 246);
+  margin: auto;
+}
+#last_time textarea{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+#last_time button{
+  height: 40px;
+  border-radius: 5px;
+  border: grey;
+  margin-left: 40%;
+  font-weight: 600;
+}
+#last_time button:hover{
+  color: white;
+  background-color: grey;
 }
 /* Footer section Dashboard */
 .foot_bar {
@@ -52,13 +218,10 @@ body {
   color: rgb(0, 153, 255);
 }
 /*  */
-.dashboard-container {
-  width: 100%;
-}
 
 /* Middle Left Section dashboard */
 .middle__left {
-  width: 17%;
+  width: 20%;
   float: left;
   height: 600px;
 }
@@ -69,6 +232,10 @@ body {
   font-size: 14px;
   vertical-align: middle;
   padding: 1px 0px 5px 0px;
+  font-weight: bold;
+  font-weight: bold;
+  font-weight: bold;
+  font-weight: bold;
   font-weight: bold;
   width: 100%;
   position: relative;
@@ -85,7 +252,7 @@ body {
 
 /* middle__right__container */
 .middle__right {
-  width: 15%;
+  width: fit-content;
   float: right;
 }
 .middle__right__img {
@@ -118,7 +285,7 @@ body {
   color: #28b6e3;
   margin-left: 30px;
   /* width: fit-content;
-  height: fit-content; */
+    height: fit-content; */
   background-color: #babac8;
 }
 .fa-bell:hover,
@@ -163,10 +330,10 @@ body {
   border-bottom: none;
 }
 /* .navbar a.active {
-width: 100px;
-height: 30px;
-border-bottom: none;
-} */
+  width: 100px;
+  height: 30px;
+  border-bottom: none;
+  } */
 .get-jefit-btn {
   background-color: #28b6e3;
   color: white;
@@ -265,9 +432,9 @@ border-bottom: none;
   padding: 8px;
 }
 /* 
-.tab.active {
-  
-} */
+  .tab.active {
+    
+  } */
 
 .tab:hover {
   color: #28b6e3;
@@ -399,199 +566,3 @@ cgreen {
     text-align: left;
   }
 }
-.Benchmark_container{
-  border-bottom:1px solid #d4d4d4;
-  padding-bottom:5px;
-  float:left; 
-  width:100%; 
-  margin-top:10px;
-}
-.Exercise__Progress{
-  color:#4d4f53;
-  font-size:16px; 
-  padding-top:20px;
-}
-.Update{
-  font-size:10px;
-  color:#AAA;
-  font-weight:bold;
-  width:100%;
-  float: left;
-}
-.Manage{
-  color:#4184A1;
-  float:right;
-  font-weight:bold;
-  font-size:11px;
-}
-.Exercise__Container{
-  display:inline-block;
-  width:100%;
-}
-.Barbell__Stats{
-  color:rgb(75, 169, 231);
-  font-weight:bold;
-  margin-top:10px; 
-  float:left; 
-  width:100%; 
-  padding-bottom:5px;
-  
-}
-.Barbell__Stats__img{
-  float:left;
-  height:80px;
-  width:20%;
-}
-.Goal__Box{
-  width:65%;
-  float: left;
-}
-.lbs__Goal{
-  font-size:24px;
-  margin-top:10px;
-  width:100%;
-  float:left;
-  text-align: center;  
-}
-.progressbar-Status{
-  width:300px;
-  height:8px;
-  border:1px solid lightgray;
-  border-radius: 8px;
-  margin-left:76px;
-}
-.Goal__Prog__Box{
-  float:left;
-  border-radius:4px;
-  width:95%;
-  border-bottom:1px dashed #d4d4d4;
-  padding-bottom: 20px;
-}
-.Goal__Prog__Box1{
-  width:100%;
-  text-align:center;
-  color:#888;
-  font-size:11px;
-}
-.Day__Container{
-  float:left;
-  width: 15%;
-
-}
-.Barbell__Squat{
-  color:#666;
-  font-weight:bold;
-
-}
-.body-stats-updates{ 
-  height: 60px;
-  float: left;
- 
-}
-.body-stats-updates-title{
- margin-bottom: 0%;
- margin-bottom: 0%;
-  padding: 0;
-}
-.body-stats-last-updated{
-  margin-top: 0%;
-  display: inline-block;
-  font-size: 11px;
-}
-.update-body-stats-page{
-  color: #3b7283;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 12px;
-  float: right;
-  margin-top: 40px;
-  margin-bottom: 0%;
-  
-}
-.male-img-body-info{
-  background-image: url("./images/male_1.jpg");
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 100%;
-
-}
-.bottom-line-body-stats-menu{
- width: 100%;
- height: 0.1px;
- background-color: #3b7283;
- margin-top: 0%;
-}
-.male-image-prop{
-  float: left;
-}
-.male-img-body-info-data{
-  margin-left: 120px;
-  float: left;
- margin-top: 120px;
-}
-.body-stats-info-card{
-  width:120px; 
-  height:340px;
-  margin-top:10px;
-  float:left;
-  margin-left:20px
-}
-.current-weight{
-  font-size:34px; 
-  font-weight:bold; 
-  margin-top:5px; 
-  padding-bottom:5px; 
-  border-bottom:1px dashed #CCC;
-}
-.body-stats-margin-color{
-  margin-top:15px; 
-  color:#999
-}
-.dashed-line-bottom{
-  margin-top:10px; 
-  padding-bottom:5px; 
-  border-bottom:1px dashed #CCC; 
-  color: #666666;
-}
-.chart-of-body-fat{
-  width: 150px;
-  height:150px;
-  margin: 50px 30px;  
-  float: left;
-}
-#myChart{
-  width: 150px;
-  height: 150px;
-  margin: 70px 80px;
-
-}
-.Manage{
-  text-decoration: none;
-}
-
-.progress__pic__container{
-  width:100%;
-  margin-top:10px;
-}
-.progress__pic__Bar{
-  width:100%;
-  padding-top: 10px;
-}
-.progress__pic__Bar2{
-  border-bottom: solid 1px #CCC;
-  padding-bottom:3px;
-}
-.Edit__upload{
-  float: right;
-  margin-right: 10px;
-  color: rgb(0, 174, 255);
-}
-.progress__pic__sub__Box{
-  width: 560px;
-}
-.progress__pic__sub__Box1{
-  text-align: center;
-  width: 560px;
-}
-
-/* commiting the changes */
