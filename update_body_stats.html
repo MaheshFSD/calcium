@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="managegoals.css">
+    <link rel="stylesheet" href="update_body_stats1.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>Benchmark</title>
@@ -27,7 +27,7 @@
         </div>
         <div class="navbar-container">
             <div class="navbar" id="navbarjs">
-                <a href="#home" class="remove-underline"><img class="logo-jefit" src="./images/logo_jefit.png" /></a>
+                <a href="#home" class="remove-underline"><img class="logo-jefit" src="https://www.jefit.com/images/logo_155_40.png" /></a>
                 <button class="get-jefit-btn">Get JEFIT Elite</button>
                 <a class="float-right" href="#DOWNLOAD">DOWNLOAD</a>
                 <a class="float-right" href="#FORUM">FORUM</a>
@@ -66,84 +66,25 @@
                 </ul>
             </div>
             <!--*  *-->
-            <td class="Benchmark__Exercise__Coloumn">
-                <div class="Benchmark__Container">
-                    <form>
-                        <div>
-                            <strong class="Set__Benchmark">Set Benchmark Exercise Goals</strong>
-                        </div>
-                        <div class="Exercise__Container">
-                            <div class="Barbell__Container">Barbell Bench
-                                Press <input type="text" style="width:50px; margin-left:32px">
-                                <strong class="lbs__Input"> lbs</strong>
-                            </div>
-                            <div class="Barbell__Container">Barbell Squat
-                                <input type="text" style="width:50px; margin-left:85px">
-                                <strong class="lbs__Input"> lbs</strong>
-                            </div>
-                        </div>
-
-                        <div class="Current__Goal__Container">
-                            <div class="Goal__data">Current Goal Weight : 30 lbs</div>
-                            <div class="Goal__data">Current Goal Weight : 30 lbs</div>
-                            <div class="Goal__data">Current Goal Date : 2020-12-31</div>
-                            <div class="Goal__data">Current Goal Date : 2020-12-31</div>
-                        </div>
-
-                        <div class="Exercise__Container">
-                            <div class="Barbell__Container">Barbell Deadlift
-                                <input type="text" style="width:50px; margin-left:70px">
-                                <strong class="lbs__Input"> lbs</strong>
-                            </div>
-                            <div class="Barbell__Container">Barbell Bicep
-                                Curl<input type="text" style="width:50px; margin-left:53px">
-                                <strong class="lbs__Input"> lbs</strong>
-                            </div>
-                        </div>
-
-                        <div class="Current__Goal__Container">
-                            <div class="Goal__data">Current Goal Weight : 33 lbs</div>
-                            <div class="Goal__data">Current Goal Weight : 30 lbs</div>
-                            <div class="Goal__data">Current Goal Date : 2020-12-31</div>
-                            <div class="Goal__data">Current Goal Date : 2020-12-31</div>
-
-
-                            <div class="Exercise__Container">
-
-                                <div class="Barbell__Container">Barbell
-                                    Tricep Extension <input type="text" style="width:50px; margin-left:3px">
-                                    <strong class="lbs__Input"> lbs</strong>
-                                </div>
-                                <div class="Barbell__Container">Barbell
-                                    Shoulder Press<input type="text" style="width:50px; margin-left:18px">
-                                    <strong class="lbs__Input"> lbs</strong>
-                                </div>
-                            </div>
-                            <div class="Current__Goal__Container">
-                                <div class="Goal__data">Current Goal Weight : 30 lbs
-                                </div>
-                                <div class="Goal__data">Current Goal Weight : 30 lbs
-                                </div>
-                                <div class="Goal__data">Current Goal Date : 2020-12-31
-                                </div>
-                                <div class="Goal__data">Current Goal Date : 2020-12-31
-                                </div>
-                            </div>
-                            <div class="Select__Goal__Input">
-                                <input type="date" style="width:125px; padding-bottom:5px" name="be_date" placeholder="">
-                            </div>
-                            <div class="Select__Goal">Select Goal Date</div>
-                            <div style="margin-top:80px;text-align:center">
-                                <input name="Submit" type="submit" class="Set__Goal" value="Set Goals" alt="submit">
-                            </div>
-                        </div>
-                    </form>
-
+            <div class="Bodystats_middlecontainer" id="Bodystats_middlecontainer">
+                <p>My Logs-> <a>2021-01-02</a></p>
+                <div class="first">
+                    <p>Body Stats</p>
+                    <button class="add" id="add">+Add</button>
                 </div>
-            </td>
-
-            <!-- Middle-Right-Container -->
-            <!--  -->
+                <p>No body stats for 2021-01-02</p>
+                <div class="first">
+                    <p>Session Summary</p>
+                    <button class="add" id="add_2">+Add</button>
+                </div>
+                <p id="left">No workout sessions on 2021-01-02</p>
+                <button id="Add_workout_logs">+Add Workout Logs</button>
+                <div class="first">
+                    <p>Notes</p>
+                    <button class="add" id="add_3">+Add</button>
+                </div>
+                <p>No Notes on 2021-01-02</p>
+            </div>
         </div>
         <div style="clear: both;"></div>
         <div class="footer-container">
