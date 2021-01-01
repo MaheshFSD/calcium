@@ -27,7 +27,8 @@ const postBtn=document.getElementById('post-status-btn')
 postBtn.addEventListener('click',assignStatus)
 function assignStatus(){
 const value=document.getElementById('status').value;
-document.getElementById('status-value').innerHTML=value;
+localStorage.setItem('status','value')
+document.getElementById('status-value').innerHTML=localStorage.getItem('status')
 
 console.log(value)
 }
