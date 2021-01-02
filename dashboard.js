@@ -22,16 +22,15 @@ tab.addEventListener('click', () => {
   target.classList.add('active')
 })
 })
-
 const postBtn=document.getElementById('post-status-btn')
 postBtn.addEventListener('click',assignStatus)
 function assignStatus(){
 const value=document.getElementById('status').value;
-localStorage.setItem('status','value')
+localStorage.setItem('status','value').
 document.getElementById('status-value').innerHTML=localStorage.getItem('status')
-
 console.log(value)
 }
+
 document.getElementById('BodyStats').addEventListener('click',loadChart)
 //window.onload=loadChart;
 function loadChart(){  
@@ -48,9 +47,8 @@ function loadChart(){
   var doughnutOptions = {
     
     segmentShowStroke: false,
-    segmentStrokeColor: "#fff",
-
-    segmentStrokeWidth: 2,
+    // segmentStrokeColor: "#fff",
+    // segmentStrokeWidth: 2,
     percentageInnerCutout: 50, 
     duration:500,
     animationEasing: "easeOutBounce",
@@ -98,7 +96,7 @@ var btn=document.getElementById("add")
                 </div>
                 <button class="done" id="done">${"Done"}</button>
                 `    
-            div.innerHTML=html
+            document.getElementById('addbodystats').innerHTML=html
             body.appendChild(div)
         }
         btn.addEventListener("click",clickit)
@@ -133,3 +131,12 @@ var btn=document.getElementById("add")
             body.appendChild(div)
         }
         document.getElementById("add_3").addEventListener("click",lasttime)
+
+        document.getElementById('Set__Goal').addEventListener('click',setFormData);
+        function setFormData(e){
+          e.prevent();
+          //const arr
+        }
+        const arr=[1,2,3,4]
+        localStorage.setItem('array',arr)
+        console.log(localStorage.getItem('array'))
