@@ -28,8 +28,7 @@ postBtn.addEventListener('click',assignStatus)
 function assignStatus(){
 const value=document.getElementById('status').value;
 localStorage.setItem('status','value')
-document.getElementById('status-value').innerHTML=localStorage.getItem('status')
-
+document.getElementById('status-value').innerHTML="cool"
 console.log(value)
 }
 document.getElementById('BodyStats').addEventListener('click',loadChart)
