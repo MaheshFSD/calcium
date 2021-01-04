@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="update_body_stats1.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src='./bodyupdate.js'></script>
+    <title>Benchmark</title>
+</head>
+
+<body>
+
+    <div class="homepage">
+        <div class="username-container">
+            <div class="username-div">
+                <i class="fa fa-bell" style="font-size: 15px;"></i>
+                <i class="fa fa-users" style="font-size: 15px;"></i>
+                <i class="fa fa-user" style="font-size: 15px;"></i>
+                <select name="username" id="username-select">
+                    <option value="" disabled selected hidden>gmahesh3</option>
+                    <option value="Settings">Settings</option>
+                    <option value="Out">Log Out</option>
+                </select>
+            </div>
+        </div>
+        <div class="navbar-container">
+            <div class="navbar" id="navbarjs">
+                <a href="#home" class="remove-underline"><img class="logo-jefit" src="https://www.jefit.com/images/logo_155_40.png" /></a>
+                <button class="get-jefit-btn">Get JEFIT Elite</button>
+                <a class="float-right" href="#DOWNLOAD">DOWNLOAD</a>
+                <a class="float-right" href="#FORUM">FORUM</a>
+                <a class="float-right" href="#BLOG">BLOG</a>
+                <a class="float-right" href="#EXERCISES">EXERCISES</a>
+                <a class="float-right" href="#WORKOUTS">WORKOUTS</a>
+                <a class="float-right" href="#MY JEFIT">MY JEFIT</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div class="dashboard-container">
+            <!--Middle-Left-Container -->
+            <div class="middle__left">
+                <div>
+                    <img class="middle__left__img" src="https://www.jefit.com/images/noProfilePic220.png"
+                        alt="profile pic">
+                </div>
+
+                <ul class="Middle__Left__Container">
+                    <p class="left__block"><img src="https://www.jefit.com/images/routine_icon_64_64.png" width="23"><a
+                            style="color: white;">_</a> My Routines</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/main_menu_logs_70_70.png"
+                            width="23"><a style="color: white;">_</a> My Logs</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/training_reports_icon_70_70.png"
+                            width="23"><a style="color: white;">_</a> My Reports</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/pictureicon.png" width="23"><a
+                            style="color: white;">_</a> My Photos</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/exercise_icon3_64_64.png"
+                            width="23"><a style="color: white;">_</a>My Custom Exercises</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/message_icon.png" width="23"><a
+                            style="color: white;">_</a> My Messages</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/friend_request_20.png" width="23"><a
+                            style="color: white;">_</a> 0 Friend(s)</p>
+                </ul>
+            </div>
+            <!--*  *-->
+            <div class="Bodystats_middlecontainer" id="Bodystats_middlecontainer">
+                <p>My Logs-> <a>2021-01-02</a></p>
+                <div class="first">
+                    <p>Body Stats</p>
+                    <button  class="add" id="add">+Add</button>
+                </div>
+                <p id="addbodystats">No body stats for 2021-01-02</p>
+                <div class="first">
+                    <p>Session Summary</p>
+                    <button class="add" id="add_2">+Add</button>
+                </div>
+                <p id="left">No workout sessions on 2021-01-02</p>
+                <button id="Add_workout_logs">+Add Workout Logs</button>
+                <div class="first">
+                    <p>Notes</p>
+                    <button class="add" id="add_3">+Add</button>
+                </div>
+                <p>No Notes on 2021-01-02</p>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="footer-container">
+            <footer class="foot_bar">
+                <div class="row">
+                    <div class="box-1">
+                        <img src="https://www.jefit.com/images/logo_155_40.png" alt="Jefit Workout Tracker"
+                            width="80"><br />
+                        <small>Copyright © 2010-2018 Jefit, Inc. All Rights
+                            Reserved.</small>
+                    </div>
+                    <div class="content__heading">
+                        <h5>Features</h5>
+                        <ul class="content__footer">
+                            <p>Get The App</p>
+                            <p>Sign Up</p>
+                            <p>Workout Programs</p>
+                            <p>Exercise Database</p>
+                        </ul>
+                    </div>
+                    <div class="content__heading">
+                        <h5>Follow</h5>
+                        <ul class="content__footer">
+                            <p>Blog</p>
+                            <p>Facebook</p>
+                            <p>Twitter</p>
+                            <p>Instagram</p>
+
+                        </ul>
+                    </div>
+                    <div class="content__heading">
+                        <h5>About</h5>
+                        <ul class="content__footer">
+                            <p>About Us</p>
+                            <p>Careers </p>
+                            <p>Contact Us</p>
+                            <p>Help Center</p>
+                            <p>Privacy Policy</p>
+                            <p>Terms of Service</p>
+                            <p>IP/DMCA Notices</p>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+
+
+</body>
+
+</html>

@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cal1.css">
-    <link rel="icon" href="data:image/jpeg;base64,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" type="image/icon type">
+    <!-- <link rel="stylesheet" href="cal1.css"> -->
     <link rel="stylesheet" href="dashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>gmahesh3 - Home | Jefit - Best workout</title>
 </head>
@@ -28,14 +31,14 @@
         </div>
         <div class="navbar-container">
             <div class="navbar" id="navbarjs">
-                <a href="index.html" class="remove-underline"><img class="logo-jefit" src="./images/logo_jefit.png" /></a>
+                <a href="./index.html" class="remove-underline"><img class="logo-jefit" src="./images/logo_jefit.png" /></a>
                 <button class="get-jefit-btn">Get JEFIT Elite</button>
                 <a class="float-right" href="#DOWNLOAD">DOWNLOAD</a>
                 <a class="float-right" href="#FORUM">FORUM</a>
                 <a class="float-right" href="#BLOG">BLOG</a>
                 <a class="float-right" href="#EXERCISES">EXERCISES</a>
                 <a class="float-right" href="#WORKOUTS">WORKOUTS</a>
-                <a class="float-right" href="#MY JEFIT">MY JEFIT</a>
+                <a href="./dashboard.html" class="float-right" >MY JEFIT</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -45,17 +48,25 @@
             <!--Middle-Left-Container -->
             <div class="middle__left">
                 <div>
-                    <img class="middle__left__img" src="https://www.jefit.com/images/noProfilePic220.png" alt="profile pic">
+                    <img class="middle__left__img" src="https://www.jefit.com/images/noProfilePic220.png"
+                        alt="profile pic">
                 </div>
 
                 <ul class="Middle__Left__Container">
-                    <p class="left__block"><img src="https://www.jefit.com/images/routine_icon_64_64.png" width="23"><a style="color: white;">_</a> My Routines</p>
-                    <p class="left__block"><img src="https://www.jefit.com/images/main_menu_logs_70_70.png" width="23"><a style="color: white;">_</a>  My Logs</p>
-                    <p class="left__block"><img src="https://www.jefit.com/images/training_reports_icon_70_70.png" width="23"><a style="color: white;">_</a> My Reports</p>
-                    <p class="left__block"><img src="https://www.jefit.com/images/pictureicon.png" width="23"><a style="color: white;">_</a> My Photos</p>
-                    <p class="left__block"><img src="https://www.jefit.com/images/exercise_icon3_64_64.png" width="23"><a style="color: white;">_</a>My Custom Exercises</p>
-                    <p class="left__block"><img src="https://www.jefit.com/images/message_icon.png" width="23"><a style="color: white;">_</a> My Messages</p>
-                    <p class="left__block"><img src="https://www.jefit.com/images/friend_request_20.png" width="23"><a style="color: white;">_</a> 0 Friend(s)</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/routine_icon_64_64.png" width="23"><a
+                            style="color: white;">_</a> My Routines</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/main_menu_logs_70_70.png"
+                            width="23"><a style="color: white;">_</a> My Logs</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/training_reports_icon_70_70.png"
+                            width="23"><a style="color: white;">_</a> My Reports</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/pictureicon.png" width="23"><a
+                            style="color: white;">_</a> My Photos</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/exercise_icon3_64_64.png"
+                            width="23"><a style="color: white;">_</a>My Custom Exercises</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/message_icon.png" width="23"><a
+                            style="color: white;">_</a> My Messages</p>
+                    <p class="left__block"><img src="https://www.jefit.com/images/friend_request_20.png" width="23"><a
+                            style="color: white;">_</a> 0 Friend(s)</p>
                 </ul>
             </div>
             <!--*  *-->
@@ -78,20 +89,22 @@
 
                     <div class="tab-content">
                         <div id="home" data-tab-content class="active">
-                            <p>Status:</p>
-                            <p></p>
+                            <span>Status:</span>
+                            <span id="status-value"></span>
                             <div class="hometab">
                                 <input type="text" id="status"
                                     placeholder="Update your status...(or share a youtube video?)">
-                                <button class="status-btn">Post</button>
+                                <button class="status-btn" id="post-status-btn">Post</button>
                             </div>
                             <h3>Tools and Resources</h3>
-                            <button class="logWorkBtn"><i class='fas fa-dumbbell'
-                                    style='font-size:24px;color:green'></i> Log Workout</button>
-                            <button class="bodystats"><i class='fas fa-dumbbell' style='font-size:24px;color:blue'></i>
-                                Body Stats</button>
-                            <button class="progresspic"><i class='fas fa-dumbbell' style='font-size:24px;color:red'></i>
-                                Progress Pic.</button>
+                            <a href="./update_body_stats.html"><button class="logWorkBtn"><img src="https://www.jefit.com/images/traininglogicon.png"
+                                width="30" style="font-size:24px"> Log Workout</button></a>
+                           <a href="./update_body_stats.html"> <button class="bodystats"><img src="https://www.jefit.com/images/bodystatusicon.png"
+                            width="30" style='font-size:24px'>
+                        Body Stats</button></a>
+                            <a href="./progress_pictures.html"><button class="progresspic"><img src="https://www.jefit.com/images/takepictureicon.png"
+                                width="30" style='font-size:24px'>
+                            Progress Pic</button></a>
                             <div class="para-info">
                                 <p>Please activate your JEFIT account by clicking the link in your activation email.
                                     Only email activated accounts are allowed to post or upload pictures.</p>
@@ -108,78 +121,336 @@
                             <p class="textlabel">
                                 No activity to show at this time. Record logs and data or <a href="#"
                                     class="bottom-label">add friends</a> to see more status updates</p>
+                        </div>
+                        <div id="BodyStats" data-tab-content >                            
+                            <div>
+                                <div class="body-stats-updates">
+                                    <h4 class="body-stats-updates-title">Latest Body Stats</h4>
+                                    <label class="body-stats-last-updated">Last Updated:</label>
+                                    <span id="last-updated-time"></span>
+                                </div>
+                                <a class="update-body-stats-page " href="./update_body_stats.html">Update Body Stats</a>
+                            </div>
+                            <img style="display: none;" onload="loadChart()">
+                            <hr class="bottom-line-body-stats-menu" ></hr>
+                            <div class="male-img-body-info">
+                                <div class="male-img-body-info-data"> 
+                                    <div style="color:#999">Height </div>
+                                    <strong style="font-size:24px;color: #0AB2E6">0</strong>
+                                    <strong style="font-size:12px;color: #0AB2E6"> in</strong>
+                                </div>
+                                <div class="body-stats-info-card"  onload="loadChart()">
 
+                                    <div style="color:#999">Current Weight</div>
+                                    <div class="current-weight">
+                                            <strong style="font-size:24px">150</strong>
+                                            <strong style="font-size:12px"> lbs</strong>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="body-stats-margin-color" >Lean Body Mass </div>
+                                    <div class="dashed-line-bottom">
+                                        <strong style="font-size:24px">150</strong>
+                                        <strong style="font-size:12px"> lbs</strong>
+                                    </div>
+
+
+                                    <div class="body-stats-margin-color">Body Fat Mass </div>
+                                    <div class="dashed-line-bottom">
+                                        <strong style="font-size:24px">0</strong>
+                                        <strong style="font-size:12px"> lbs</strong>
+                                    </div>
+
+                                    <div class="body-stats-margin-color">BMI</div>
+                                    <div class="dashed-line-bottom">
+                                        <strong style="font-size:24px">20.34</strong>
+                                    </div>
+                                </div>
+                                <canvas id="myChart"  ></canvas>
+                                <p id="chart-percentage"></p>                                
+                            </div>                            
                         </div>
-                        <div id="BodyStats" data-tab-content>
-                            <h1>BodyStats</h1>
-                            <p>This is BodyStats</p>
-                        </div>
+
+
                         <div id="TrainingStats" data-tab-content>
-                            <h1>TrainingStats</h1>
-                            <p>This is TrainingStats </p>
+                            <div class="Benchmark_container">
+                                <strong class="Exercise__Progress">Benchmark Exercise Progress</strong>
+                                <div class="Update"> Last Updated: 2020-12-30<a href="./managegoals.html" class="Manage">Manage Your Goals</a>
+                                    <!-- Manage Your goal -->
+                                    <div id="Manage__Goal"></div>
+
+                                    <!--  -->
+                                </div>
+                            </div>
+                            <div class="Exercise__Container">
+                                <div class="Barbell__Stats">
+                                    <a href="http://www.jefit.com/exercises/2/barbell-bench-press"
+                                        class="Barbell__Stats">Barbell Bench
+                                        Press</a>
+                                </div>
+                                <div class="Barbell__Stats__img">
+                                    <a href="http://www.jefit.com/exercises/2/barbell-bench-press">
+                                        <img src="https://www.jefit.com/images/exercises/800_600/8.jpg" width="100"></a>
+                                </div>
+                                <div class="Goal__Box">
+                                    <div class="lbs__Goal"><a style="color:#0086C9"> -- </a>
+                                        <span style="margin-left:2px; font-size:14px">of goal lbs</span>
+                                    </div>
+                                    <input class="progressbar-Status" />
+                                    <div class="Goal__Prog__Box">
+                                        <div>
+                                            <div class="Goal__Prog__Box1">Goal Progress : <span
+                                                    style="color: #666666; font-weight: bold;">0.00</span><span
+                                                    style="font-size:9px">%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Day__Container">
+                                    <span style="color:#999">Days Left </span>
+                                    <div style="font-size:30px; font-weight:bold; margin-top:10px">0</div>
+                                </div>
+                                <div class="Barbell__Stats">
+                                    <a href="http://www.jefit.com/exercises/12/barbell-squat"
+                                        class="Barbell__Stats">Barbell Squat</a>
+                                </div>
+                                <div class="Barbell__Stats__img">
+                                    <a href="http://www.jefit.com/exercises/12/barbell-squat">
+                                        <img src="https://www.jefit.com/images/exercises/800_600/49.jpg"
+                                            width="100"></a>
+                                </div>
+                                <input class="progressbar-Status" />
+                                <div class="Goal__Box">
+                                    <div class="lbs__Goal"><a style="color:#0086C9"> -- </a>
+                                        <span style="margin-left:2px; font-size:14px">of goal lbs</span>
+                                    </div>
+                                    <div class="Goal__Prog__Box">
+                                        <div>
+                                            <div class="Goal__Prog__Box1">Goal Progress : <span
+                                                    style="color: #666666; font-weight: bold;">0.00</span><span
+                                                    style="font-size:9px">%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Day__Container">
+                                    <span style="color:#999">Days Left </span>
+                                    <div style="font-size:30px; font-weight:bold; margin-top:10px">0</div>
+                                </div>
+                                <div class="Barbell__Stats">
+                                    <a href="http://www.jefit.com/exercises/93/barbell-deadlift"
+                                        class="Barbell__Stats">Barbell Deadlift</a>
+                                </div>
+                                <div class="Barbell__Stats__img">
+                                    <a href="http://www.jefit.com/exercises/93/barbell-deadlift">
+                                        <img src="https://www.jefit.com/images/exercises/800_600/372.jpg"
+                                            width="100"></a>
+                                </div>
+                                <input class="progressbar-Status" />
+                                <div class="Goal__Box">
+                                    <div class="lbs__Goal"><a style="color:#0086C9"> -- </a>
+                                        <span style="margin-left:2px; font-size:14px">of goal lbs</span>
+                                    </div>
+                                    <div class="Goal__Prog__Box">
+                                        <div>
+                                            <div class="Goal__Prog__Box1">Goal Progress : <span
+                                                    style="color: #666666; font-weight: bold;">0.00</span><span
+                                                    style="font-size:9px">%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Day__Container">
+                                    <span style="color:#999">Days Left </span>
+                                    <div style="font-size:30px; font-weight:bold; margin-top:10px">0</div>
+                                </div>
+
+
+                                <div class="Barbell__Stats">
+                                    <a href="http://www.jefit.com/exercises/112/barbell-bicep-curl"
+                                        class="Barbell__Stats">Barbell Bicep
+                                        Curl</a>
+                                </div>
+                                <div class="Barbell__Stats__img">
+                                    <a href="http://www.jefit.com/exercises/112/barbell-bicep-curl">
+                                        <img src="https://www.jefit.com/images/exercises/800_600/448.jpg"
+                                            width="100"></a>
+                                </div>
+                                <input class="progressbar-Status" />
+                                <div class="Goal__Box">
+                                    <div class="lbs__Goal"><a style="color:#0086C9"> -- </a>
+                                        <span style="margin-left:2px; font-size:14px">of goal lbs</span>
+                                    </div>
+                                    <div class="Goal__Prog__Box">
+                                        <div>
+                                            <div class="Goal__Prog__Box1">Goal Progress : <span
+                                                    style="color: #666666; font-weight: bold;">0.00</span><span
+                                                    style="font-size:9px">%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Day__Container">
+                                    <span style="color:#999">Days Left </span>
+                                    <div style="font-size:30px; font-weight:bold; margin-top:10px">0</div>
+                                </div>
+
+
+                                <div class="Barbell__Stats">
+                                    <a href="http://www.jefit.com/exercises/55/barbell-tricep-extension"
+                                        class="Barbell__Stats">Barbell Tricep
+                                        Extension</a>
+                                </div>
+                                <div class="Barbell__Stats__img">
+                                    <a href="http://www.jefit.com/exercises/55/barbell-tricep-extension">
+                                        <img src="https://www.jefit.com/images/exercises/100_75/449.jpg"
+                                            width="100"></a>
+                                </div>
+                                <input class="progressbar-Status" />
+                                <div class="Goal__Box">
+                                    <div class="lbs__Goal"><a style="color:#0086C9"> -- </a>
+                                        <span style="margin-left:2px; font-size:14px">of goal lbs</span>
+                                    </div>
+                                    <div class="Goal__Prog__Box">
+                                        <div>
+                                            <div class="Goal__Prog__Box1">Goal Progress : <span
+                                                    style="color: #666666; font-weight: bold;">0.00</span><span
+                                                    style="font-size:9px">%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Day__Container">
+                                    <span style="color:#999">Days Left </span>
+                                    <div style="font-size:30px; font-weight:bold; margin-top:10px">0</div>
+                                </div>
+
+
+                                <div class="Barbell__Stats">
+                                    <a href="http://www.jefit.com/exercises/10/barbell-shoulder-press"
+                                        class="Barbell__Stats">Barbell Shoulder
+                                        Press</a>
+                                </div>
+                                <div class="Barbell__Stats__img">
+                                    <a href="http://www.jefit.com/exercises/10/barbell-shoulder-press">
+                                        <img src="https://www.jefit.com/images/exercises/100_75/41.jpg" width="100"></a>
+                                </div>
+                                <input class="progressbar-Status" />
+                                <div class="Goal__Box">
+                                    <div class="lbs__Goal"><a style="color:#0086C9"> -- </a>
+                                        <span style="margin-left:2px; font-size:14px">of goal lbs</span>
+                                    </div>
+                                    <div class="Goal__Prog__Box">
+                                        <div>
+                                            <div class="Goal__Prog__Box1">Goal Progress : <span
+                                                    style="color: #666666; font-weight: bold;">0.00</span><span
+                                                    style="font-size:9px">%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Day__Container">
+                                    <span style="color:#999">Days Left </span>
+                                    <div style="font-size:30px; font-weight:bold; margin-top:10px">0</div>
+                                </div>
+                            </div>                           
                         </div>
                         <div id="ProgressPhotos" data-tab-content>
-                            <h1>ProgressPhotos</h1>
-                            <p>This is ProgressPhotos </p>
+                            <div class="progress__pic__container">
+                                <div class="progress__pic__Bar">
+                                    <div>
+                                        <div class="progress__pic__Bar2">
+                                            <strong style="margin-left:5px; color:#4d4f53; font-size:16px"> Progress Pictures </strong>
+                                            <span class="Edit__upload">More</span>
+                                            <span class="Edit__upload">Edit</span>
+                                            <span class="Edit__upload">Upload</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress__pic__sub__Box">
+                                    <div>
+                                        <div class="progress__pic__sub__Box1">
+                                            <p>
+                                                <img src="https://www.jefit.com/assets/img/group-avatar.png"
+                                                    value="Upload Some Progress Pictures Now">
+                                            </p>
+                                            <p style=" margin-top:10px">
+                                                <input type="button" class="picturepostButton"
+                                                    value="No Picture Found, Upload now to enable progress photo comparison feature.">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+                <!-- Log workourt -->
+                <div id="Log__Workout"></div>
+                <!--  -->
 
-        <!-- Middle-Right-Container -->
-        <div class="middle__right">
-            <img class="middle__right__img" src="https://i.imgur.com/4qvKVBj.png" alt="rightuser_pic" />
-        </div>
-        <!--  -->
-    </div>
-    <div style="clear: both;"></div>
-    <div class="footer-container">
-        <footer class="foot_bar">
-            <div class="row">
-                <div class="box-1">
-                    <img src="https://www.jefit.com/images/logo_155_40.png" alt="Jefit Workout Tracker"
-                        width="80"><br />
-                    <small>Copyright © 2010-2018 Jefit, Inc. All Rights
-                        Reserved.</small>
-                </div>
-                <div class="content__heading">
-                    <h5>Features</h5>
-                    <ul class="content__footer">
-                        <p>Get The App</p>
-                        <p>Sign Up</p>
-                        <p>Workout Programs</p>
-                        <p>Exercise Database</p>
-                    </ul>
-                </div>
-                <div class="content__heading">
-                    <h5>Follow</h5>
-                    <ul class="content__footer">
-                        <p>Blog</p>
-                        <p>Facebook</p>
-                        <p>Twitter</p>
-                        <p>Instagram</p>
+                <!-- Body Stats -->
+                <div id="Body__Stats"></div>
+                <!--  -->
 
-                    </ul>
-                </div>
-                <div class="content__heading">
-                    <h5>About</h5>
-                    <ul class="content__footer">
-                        <p>About Us</p>
-                        <p>Careers </p>
-                        <p>Contact Us</p>
-                        <p>Help Center</p>
-                        <p>Privacy Policy</p>
-                        <p>Terms of Service</p>
-                        <p>IP/DMCA Notices</p>
-                    </ul>
-                </div>
+                <!-- Progress Pic -->
+                <div id="Progress__Pic"></div>
+                <!--  -->
+
             </div>
-        </footer>
-    </div>
+
+            <!-- Middle-Right-Container -->
+            <div class="middle__right">
+                <img class="middle__right__img" src="./images/rightpic.png" alt="rightuser_pic" />
+            </div>
+            <!--  -->
+        </div>
+        <div style="clear: both;"></div>
+        <div class="footer-container">
+            <footer class="foot_bar">
+                <div class="row">
+                    <div class="box-1">
+                        <img src="https://www.jefit.com/images/logo_155_40.png" alt="Jefit Workout Tracker"
+                            width="80"><br />
+                        <small>Copyright © 2010-2018 Jefit, Inc. All Rights
+                            Reserved.</small>
+                    </div>
+                    <div class="content__heading">
+                        <h5>Features</h5>
+                        <ul class="content__footer">
+                            <p>Get The App</p>
+                            <p>Sign Up</p>
+                            <p>Workout Programs</p>
+                            <p>Exercise Database</p>
+                        </ul>
+                    </div>
+                    <div class="content__heading">
+                        <h5>Follow</h5>
+                        <ul class="content__footer">
+                            <p>Blog</p>
+                            <p>Facebook</p>
+                            <p>Twitter</p>
+                            <p>Instagram</p>
+
+                        </ul>
+                    </div>
+                    <div class="content__heading">
+                        <h5>About</h5>
+                        <ul class="content__footer">
+                            <p>About Us</p>
+                            <p>Careers </p>
+                            <p>Contact Us</p>
+                            <p>Help Center</p>
+                            <p>Privacy Policy</p>
+                            <p>Terms of Service</p>
+                            <p>IP/DMCA Notices</p>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>        
     </div>
     <script src="dashboard.js"></script>
 </body>
-
-
 </html>
