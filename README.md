@@ -1,6 +1,6 @@
 # Calcium
 # Jefit.com
-    JEFIT, the number one workout tracking planner app, provides free fitness program database to help you stay fit, make progress and get the most out of your gym or home fitness sessions.
+JEFIT, the number one workout tracking planner app, provides free fitness program database to help you stay fit, make progress and get the most out of your gym or home fitness sessions.
 ## Tech stacks used :
 - HTML
 - CSS
