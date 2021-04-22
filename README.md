@@ -8,6 +8,8 @@ JEFIT, the number one workout tracking planner app, provides free fitness progra
 
 ## Home Page :
 - Overview of Jefit services, products and pricing.
+- ![proof](https://user-images.githubusercontent.com/73214362/115741188-25931d00-a3ad-11eb-9127-19cc6a95df0d.jpg)
+
 
 ## signin and signup :
 - The registration page for new users and the login in page registered customers.
